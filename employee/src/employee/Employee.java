@@ -77,7 +77,7 @@ public class Employee {
                 System.out.println("6. Logout");
                 System.out.print("Enter your choice: ");
                 int choice = s.nextInt();
-                s.nextLine(); // Consume newline
+                s.nextLine();
 
                 switch (choice) {
                     case 1 : viewAssignedDepartment(con);
