@@ -99,6 +99,7 @@ public class Employee {
                             return;
                         }
                     }
+                    break;
                     default : System.out.println("Invalid choice. Try again.");
                 }
             }
